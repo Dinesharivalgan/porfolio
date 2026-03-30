@@ -1,0 +1,90 @@
+.experience-section {
+  padding: 120px 5%;
+  background: #060d1a;
+  position: relative;
+  z-index: 1;
+}
+
+.experience-inner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.exp-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 20px;
+  padding: 36px;
+  margin-top: 40px;
+  transition: all 0.3s ease;
+  cursor: none;
+}
+
+.exp-card:hover {
+  border-color: rgba(56, 189, 248, 0.2);
+  transform: translateY(-4px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+}
+
+.exp-header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.exp-badge-tag {
+  background: rgba(52, 211, 153, 0.1);
+  border: 1px solid rgba(52, 211, 153, 0.2);
+  color: #34d399;
+  border-radius: 8px;
+  padding: 4px 14px;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'DM Sans', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.exp-role {
+  font-family: 'Syne', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #f1f5f9;
+  margin-bottom: 6px;
+}
+
+.exp-company {
+  font-size: 14px;
+  color: #64748b;
+  margin-bottom: 28px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.exp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.exp-li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 15px;
+  color: #94a3b8;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.exp-li::before {
+  content: '→';
+  color: #38bdf8;
+  flex-shrink: 0;
+  font-weight: 700;
+}
+
+/* REVEAL */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.visible { opacity: 1; transform: translateY(0); }

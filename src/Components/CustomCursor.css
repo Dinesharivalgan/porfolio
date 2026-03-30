@@ -1,0 +1,84 @@
+* {
+  cursor: none !important;
+}
+
+.cursor-dot {
+  width: 8px;
+  height: 8px;
+  background: #38bdf8;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 99999;
+  transform: translate(-50%, -50%);
+  transition: transform 0.08s ease, background 0.2s ease, width 0.2s ease, height 0.2s ease;
+  box-shadow: 0 0 10px #38bdf8, 0 0 20px rgba(56, 189, 248, 0.4);
+}
+
+.cursor-ring {
+  width: 36px;
+  height: 36px;
+  border: 1.5px solid rgba(56, 189, 248, 0.6);
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 99998;
+  transform: translate(-50%, -50%);
+  transition: transform 0.15s ease, width 0.3s ease, height 0.3s ease,
+    border-color 0.3s ease, background 0.3s ease, opacity 0.3s ease;
+}
+
+.cursor-trail {
+  position: fixed;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 99997;
+  transform: translate(-50%, -50%);
+  background: rgba(56, 189, 248, 0.35);
+  transition: opacity 0.5s ease;
+}
+
+/* Hover over buttons / links */
+.cursor-dot.hovered {
+  width: 6px;
+  height: 6px;
+  background: #818cf8;
+  box-shadow: 0 0 12px #818cf8, 0 0 24px rgba(129, 140, 248, 0.5);
+}
+
+.cursor-ring.hovered {
+  width: 56px;
+  height: 56px;
+  border-color: rgba(129, 140, 248, 0.7);
+  background: rgba(129, 140, 248, 0.05);
+}
+
+/* Hover over text */
+.cursor-dot.text-hover {
+  width: 3px;
+  height: 28px;
+  border-radius: 2px;
+  background: #38bdf8;
+}
+
+.cursor-ring.text-hover {
+  opacity: 0;
+}
+
+/* Click effect */
+.cursor-dot.clicking {
+  transform: translate(-50%, -50%) scale(0.7);
+  background: #7dd3fc;
+}
+
+.cursor-ring.clicking {
+  transform: translate(-50%, -50%) scale(1.4);
+  border-color: #7dd3fc;
+  background: rgba(125, 211, 252, 0.08);
+}
