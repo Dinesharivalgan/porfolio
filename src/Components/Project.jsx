@@ -10,10 +10,10 @@ const projects = [
     desc: 'A fully responsive movie ticket booking app with an interactive seat map and clean payment UI — built to mimic production-grade booking flows.',
     features: ['Interactive seat selection map', 'Payment UI & confirmation flow', 'Mobile-first responsive design'],
     stack: ['React.js', 'CSS3', 'useState'],
-    live: 'https://cinebook-movie.vercel.app/',
-    github: 'https://github.com/Dinesharivalgan/CineBook',
+    live: '#',
+    github: '#',
   },
-  {
+{
     thumb: 'thumb-portfolio',
     emoji: '🧑‍💻',
     tag: 'Portfolio',
@@ -21,8 +21,8 @@ const projects = [
     desc: 'A modern, animated personal portfolio with scroll-triggered animations, glassmorphism UI, and a fully responsive layout for clients & recruiters.',
     features: ['Scroll-triggered animations', 'Glassmorphism + dark theme', 'Fully responsive across devices'],
     stack: ['React.js', 'CSS3', 'Framer Motion'],
-    live: '#',
-    github: '#',
+    live: 'https://porfolio-plum-six.vercel.app/',
+    github: 'https://github.com/Dinesharivalgan/porfolio',
   },
   {
     thumb: 'thumb-ecommerce',
@@ -79,8 +79,8 @@ const Project = () => {
                   {p.stack.map((t) => <span className="stack-tag" key={t}>{t}</span>)}
                 </div>
                 <div className="project-links">
-                  <a href={p.live} target="_blank" rel="noreferrer" className="proj-btn proj-live">↗ Live Demo</a>
-                  <a href={p.github} target="_blank" rel="noreferrer" className="proj-btn proj-gh">⎇ GitHub</a>
+                  <a href={p.live} className="proj-btn proj-live">↗ Live Demo</a>
+                  <a href={p.github} className="proj-btn proj-gh">⎇ GitHub</a>
                 </div>
               </div>
             </div>
