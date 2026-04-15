@@ -65,7 +65,7 @@
 
 .hero-role {
   font-size: clamp(16px, 2vw, 20px);
-  color: #94a3b8;
+  color: #ffffff;
   font-weight: 300;
   margin: 16px 0 28px;
   animation: fadeUp 0.6s 0.2s ease both;

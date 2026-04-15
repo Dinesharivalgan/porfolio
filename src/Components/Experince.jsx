@@ -29,7 +29,7 @@ const Experince = () => {
             <div className="exp-badge-tag">Internship</div>
           </div>
           <div className="exp-role">Frontend Developer Intern</div>
-          <div className="exp-company">GT Software · 2024</div>
+          <div className="exp-company">GT Software · Dec2025 - March2026</div>
           <div className="exp-list">
             {[
               'Worked on real-time client web projects',

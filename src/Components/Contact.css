@@ -20,12 +20,21 @@
   background: linear-gradient(90deg, #3b82f6, #9333ea);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-decoration: none;
 }
+
 
 .contact-info p {
   font-size: 1.05rem;
   margin-bottom: 0.6rem;
   color: #cbd5e1;
+  text-decoration-color: #9333ea;
+}
+.text-blue-400{
+  text-decoration: none;
+  text-shadow: #9333ea;
+color: rgb(30, 183, 25);
+ 
 }
 
 .contact-form {
@@ -69,7 +78,7 @@
 
 .contact-form button:hover {
   transform: scale(1.05);
-  box-shadow: 0 4px 20px rgba(59, 130, 246, 0.6);
+
 }
 
 @media screen and (max-width: 768px) {

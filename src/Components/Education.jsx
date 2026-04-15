@@ -3,10 +3,11 @@ import './Education.css';
 
 const Education = () => {
   return (
+    <div className='main'>
     <section id="education" className="education-section py-32">
       <div className="container mx-auto px-6">
         <div className="section-header">
-          <h2 className="section-title">Education</h2>
+          <h2>Education</h2>
           <div className="section-divider"></div>
         </div>
         
@@ -52,7 +53,7 @@ const Education = () => {
           </div>
         </div>
       </div>
-    </section>
+    </section></div>
   );
 };
 

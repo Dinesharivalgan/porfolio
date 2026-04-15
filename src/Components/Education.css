@@ -1,6 +1,21 @@
 .edu-card {
-  background: rgb(238, 153, 117);
+  background: #091225;
   padding: 20px;
   border-radius: 15px;
   border: 1px solid rgb(0, 0, 0);
+  color: aliceblue;
+  gap: 10px;
+}
+h2{
+  color: aliceblue !important;
+}
+.main{
+background-color: #091225;
+
+}
+.edu-card:hover{
+   border-color: #54bcd8;
+  color: #54bcd8;
+  transform: translateY(-2px);
+  box-shadow: 0px 12px 12px 0px rgb(109, 108, 108);
 }

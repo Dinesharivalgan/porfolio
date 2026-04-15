@@ -23,13 +23,14 @@ const Contact = () => {
     <section id="contact" className="contact-section">
       <div className="contact-container">
 
-        {/* Contact Info */}
         <div className="contact-info">
           <h2>Get in Touch</h2>
-          <p>Email: <a href="mailto:dinesharivalagan522@gmail.com" className="text-blue-400">dinesharivalagan522@gmail.com</a></p>
+         
+          <p>Email: <a  href="mailto:dinesharivalagan522@gmail.com" className="text-blue-400">dinesharivalagan522@gmail.com</a></p>
           <p>Phone: <a href="tel:9360686485" className="text-blue-400">+91 9360686485</a></p>
           <p>GitHub: <a href="https://github.com/Dinesharivalgan" target="_blank" rel="noreferrer" className="text-blue-400">github.com/yourusername</a></p>
           <p>LinkedIn: <a href="https://linkedin.com/in/dinesh-arivalagan-7263513a6" target="_blank" rel="noreferrer" className="text-blue-400">linkedin.com/in/yourprofile</a></p>
+      
         </div>
 
         {/* Contact Form */}

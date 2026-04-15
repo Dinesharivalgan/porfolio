@@ -46,7 +46,7 @@ const About = () => {
         {/* RIGHT CARDS */}
         <div className="about-cards">
           {[
-            { icon: '🎓', title: "B.Sc. Computer Science", desc: "Manonmaniam Sundaranar University · 2024 · CGPA 6.7", delay: 'reveal-d1' },
+           
             { icon: '💼', title: "Frontend Intern @ GT Software", desc: "Built real-time web projects and responsive UIs with React.", delay: 'reveal-d2' },
             { icon: '📍', title: "Based in Tamil Nadu, India", desc: "Open to remote work globally and on-site opportunities.", delay: 'reveal-d3' },
           ].map((card, i) => (
